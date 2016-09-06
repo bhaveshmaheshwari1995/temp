@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Builder</title>
+  <!-- CSS (load bootstrap) -->
+  <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+
+  <!-- JS (load angular, ui-router, and our custom js file) -->
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <script src="script/jquery.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+  <script src="script/jquery-2.0.3.min.js"></script>
+  <script src="script/bootstrap.min.js"></script>
+
+ 
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<!-- apply our angular app to our site -->
+<body ng-app="profileBuilder">
+
+
+<!-- NAVIGATION 
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header">
+ <a class="navbar-brand" href="#" ><img src="images/icon.png" >
+    </a>
+    <a class="navbar-brand" ui-sref="home">Match My Date</a>
+  </div>
+  
+   
+</nav>-->
+
+
+
+
+  <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+<div ui-view>
+  
+
+</div>
+
+
+
+</body>
+</html>
